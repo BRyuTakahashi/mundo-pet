@@ -1,0 +1,19 @@
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  background-color: var(--background-secondary);
+  width: fit-content;
+  border-radius: 0px 0px 0.75rem 0px;
+  text-decoration: none;
+
+  & h1 {
+    font: var(--font-title);
+    color: var(--content-brand);
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,73 @@
+:root {
+  /* content */
+  --content-primary: #ffffff;
+  --content-secondary: #98959d;
+  --content-tertiary: #666666;
+  --content-brand: #9282fa;
+
+  /* background */
+  --background-primary: #151515;
+  --background-secondary: #1e1e1e;
+  --background-tertiary: #23242c;
+  --background-brand: #9282fa;
+  --background-highlight: #bdb3fa;
+
+  /* border */
+  --border-primary: #3e3c41;
+  --border-secondary: #86818c;
+  --border-brand: #9282fa;
+  --border-divisor: #353339;
+
+  /* accent */
+  --accent-blue: #027df0;
+  --accent-blue-light: #16487a;
+  --accent-yellow: #f0fc02;
+  --accent-yellow-light: #756e1b;
+  --accent-orange: #f09102;
+  --accent-orange-light: #75501b;
+
+  /* font family */
+  --ff-inter-tight: "Inter tight", sans-serif;
+  --ff-inter: "Inter", sans-serif;
+
+  /* font size */
+  --fs-title: 1.5rem;
+  --fs-paragraph-medium: 0.875rem;
+  --fs-paragraph-small: 0.75rem;
+  --fs-label-large: 1rem;
+  --fs-label-medium: 0.875rem;
+  --fs-label-small: 0.75rem;
+  --fs-link: 0.75rem;
+
+  /* font weight */
+  --fw-bold: 700;
+  --fw-medium: 500;
+
+  /* font Inter Tight */
+  --font-title: var(--fw-bold) var(--fs-title) / 2rem var(--ff-inter-tight);
+
+  /* font Inter */
+  --font-paragraph-medium: var(--fw-medium) var(--fs-paragraph-medium) / 1.5rem
+    var(--ff-inter);
+  --font-paragraph-small: var(--fw-medium) var(--fs-paragraph-small) / 1rem
+    var(--ff-inter);
+  --font-label-large: var(--fw-bold) var(--fs-label-large) / 1.5rem
+    var(--ff-inter);
+  --font-label-medium: var(--fw-bold) var(--fs-label-medium) / 1.5rem
+    var(--ff-inter);
+  --font-label-small: var(--fw-bold) var(--fs-label-small) / 1rem
+    var(--ff-inter);
+  --font-link: var(--fw-medium) var(--fs-link) / 1rem var(--ff-inter);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-primary);
+  font: var(--font-paragraph-medium);
+  color: var(--content-primary);
+}

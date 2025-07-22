@@ -1,0 +1,18 @@
+{
+  "name": "mundo-pet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
