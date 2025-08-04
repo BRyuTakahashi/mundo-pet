@@ -71,3 +71,8 @@ body {
   font: var(--font-paragraph-medium);
   color: var(--content-primary);
 }
+
+input,
+textarea {
+  outline: none;
+}
