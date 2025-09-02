@@ -6,7 +6,7 @@
 
 ## 📸 Demonstração Visual
 
-![Página do Mundo Pet](https://github.com/BRyuTakahashi/encanto-literarios/blob/main/assets/screenshots/Captura%20de%20tela%202025-06-22%20231449.png)
+![Página do Mundo Pet](https://github.com/BRyuTakahashi/mundo-pet/blob/main/src/assets/mundo-pet-screenshot.png)
 
 ---
 
@@ -31,7 +31,7 @@
 ## 🖥️ Demonstração
 
 ### 🔗Acesse o site aqui (Only on desktop⚠️)
-https://encanto-literarios.vercel.app/
+https://mundo-pet-iota.vercel.app/
 
 ## 🛠️ Como rodar localmente
 
